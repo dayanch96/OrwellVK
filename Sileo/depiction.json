@@ -1,0 +1,83 @@
+  {
+    "minVersion": "0.1",
+    "headerImage": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/header.png",
+    "class": "DepictionTabView",
+    "tintColor": "#B5DAFC",
+    "tabs": [
+        {
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBottomMargin": false,
+                    "title": "OrwellVK",
+                    "useBoldText": true
+                },
+                {
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "A subtle shift from the familiar"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/screenshot1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/screenshot2.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot2",
+                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/screenshot3.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot3",
+                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/screenshot4.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot4",
+                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/screenshot5.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot5",
+                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/screenshot6.png"
+                        }
+                    ],
+                    "itemSize": "{160, 275.41333333333336}",
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6
+                },
+                {
+                    "markdown": "### Features:\n- Download everything you love: videos, episodes, clips, songs, stories, and even voice messages\n- Incognito Mode: Become invisible. Browse posts, read messages, and publish entries without leaving a trace\n- Chats: Manage your chats with ease: send voice and video messages, graffiti directly from the gallery. Pretend you're typing\n- Simplicity: Intuitive and flexible settings that are easy to personalize\n- And More: OrwellVK is not just about settings. It hides even more features for your comfort and privacy\n\n*OrwellVK preferences can be found in the VK Settings and Side menu*",
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "text": "dvntm",
+                    "class": "DepictionTableTextView",
+                    "title": "Developer"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView",
+            "tabname": "Details"
+        }
+    ]
+}
