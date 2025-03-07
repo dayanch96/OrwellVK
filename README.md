@@ -31,3 +31,5 @@ A simple yet powerful tweak for VK
 
 
 **OrwellVK preferences can be found in the VK Settings and Side menu**
+
+**OrwellVK supports iOS 14+ and VK 8.107+**
