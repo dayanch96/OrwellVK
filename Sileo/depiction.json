@@ -1,6 +1,6 @@
   {
     "minVersion": "0.1",
-    "headerImage": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/header.png",
+    "headerImage": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/header.png",
     "class": "DepictionTabView",
     "tintColor": "#B5DAFC",
     "tabs": [
@@ -25,27 +25,27 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot0",
-                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/screenshot1.png"
+                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot1.png"
                         },
                         {
                             "accessibilityText": "Screenshot1",
-                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/screenshot2.png"
+                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot2.png"
                         },
                         {
                             "accessibilityText": "Screenshot2",
-                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/screenshot3.png"
+                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot3.png"
                         },
                         {
                             "accessibilityText": "Screenshot3",
-                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/screenshot4.png"
+                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot4.png"
                         },
                         {
                             "accessibilityText": "Screenshot4",
-                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/screenshot5.png"
+                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot5.png"
                         },
                         {
                             "accessibilityText": "Screenshot5",
-                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Resources/screenshot6.png"
+                            "url": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot6.png"
                         }
                     ],
                     "itemSize": "{160, 275.41333333333336}",
