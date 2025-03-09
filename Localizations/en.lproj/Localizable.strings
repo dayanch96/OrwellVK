@@ -27,6 +27,10 @@
 "FeedCopyDesc" = "Allows copying the post description by long-pressing";
 "FeedTranslate" = "Translate posts";
 "FeedTranslateDesc" = "Allows translating post text/description by long-pressing";
+"FeedNoCreators" = "Hide \"Creators for You\"";
+"FeedNoCreatorsDesc" = "Hides the recommended creators block";
+"FeedNoVKVids" = "Hide \"VK Video\"";
+"FeedNoVKVidsDesc" = "Hides the recommended videos block";
 
 "Video" = "Video";
 "VideoDownload" = "Download video";
@@ -37,7 +41,7 @@
 "BackgroundSupportDesc" = "Allows continuing video downloads in the background with a notification upon completion";
 "PauseGesture" = "Pause with two fingers";
 "PauseGestureDesc" = "Allows pausing/resuming playback by tapping with two fingers on overlay";
-"VideoTip" = "Note: Video loading progress can be hidden by long-pressing the 'Stop' button";
+"VideoTip" = "Note: Video loading progress can be hidden by long-pressing the \"Stop\" button";
 
 "Clips" = "Clips";
 "ClipsDownload" = "Download clips";
@@ -109,19 +113,19 @@
 "ClipboardTip" = "For proper functionality, go to iOS Settings → VK → Paste from other apps and select \"Allow\"";
 "LinkDetected" = "A link has been detected. Would you like to open it in VK?";
 "NavToSource" = "Open";
-"OpenFromLink" = "Open from link";
+"OpenFromLink" = "Open From Link";
 
 "SideMenuHeader" = "VK Menu";
 "RemoveSecurity" = "Hide VK ID";
-"RemoveSecurityDesc" = "Hides the 'VK ID' cell from the VK menu";
+"RemoveSecurityDesc" = "Hides the \"VK ID\" cell from the VK menu";
 "RemoveFaves" = "Hide bookmarks";
-"RemoveFavesDesc" = "Hides the 'Bookmarks' cell from the VK menu";
+"RemoveFavesDesc" = "Hides the \"Bookmarks\" cell from the VK menu";
 "RemoveDocs" = "Hide files";
-"RemoveDocsDesc" = "Hides the 'Files' cell from the VK menu";
+"RemoveDocsDesc" = "Hides the \"Files\" cell from the VK menu";
 "RemoveVKPay" = "Hide VK Pay";
-"RemoveVKPayDesc" = "Hides the 'VK Pay' cell from the VK menu";
+"RemoveVKPayDesc" = "Hides the \"VK Pay\" cell from the VK menu";
 "RemoveSupport" = "Hide support";
-"RemoveSupportDesc" = "Hides the 'Support' cell from the VK menu";
+"RemoveSupportDesc" = "Hides the \"Support\" cell from the VK menu";
 
 "DisableSwipeToCam" = "Disable left swipe gesture";
 "DisableSwipeToCamDesc" = "Disables the camera opening gesture from the main tab";
@@ -130,7 +134,29 @@
 "DisableMarusya" = "Disable voice assistant";
 "DisableMarusyaDesc" = "Prevents microphone activation in the \"Hub\" tab";
 "SafariRedirect" = "Open in Safari";  
-"SafariRedirectDesc" = "Automatically redirects all non-VK links to Safari";  
+"SafariRedirectDesc" = "Automatically redirects all non-VK links to Safari, bypassing the app's site blocking";  
+
+"SearchResultsHeader" = "Search Results";
+"DiscNoMain" = "Hide \"All\"";
+"DiscNoMainDesc" = "Hides general search results";
+"DiscNoPeople" = "Hide \"People\"";
+"DiscNoPeopleDesc" = "Hides the \"People\" tab from search results";
+"DiscNoGames" = "Hide \"Games\"";
+"DiscNoGamesDesc" = "Hides the \"Games\" tab from search results";
+"DiscNoGroups" = "Hide \"Communities\"";
+"DiscNoGroupsDesc" = "Hides the \"Communities\" tab from search results";
+"DiscNoGoods" = "Hide \"Goods\"";
+"DiscNoGoodsDesc" = "Hides the \"Goods\" tab from search results";
+"DiscNoNews" = "Hide \"News\"";
+"DiscNoNewsDesc" = "Hides the \"News\" tab from search results";
+"DiscNoAudios" = "Hide \"Music\"";
+"DiscNoAudiosDesc" = "Hides the \"Music\" tab from search results";
+"DiscNoMiniApps" = "Hide \"Services\"";
+"DiscNoMiniAppsDesc" = "Hides the \"Services\" tab from search results";
+"DiscNoVideos" = "Hide \"Videos\"";
+"DiscNoVideosDesc" = "Hides the \"Videos\" tab from search results";
+"DiscNoClips" = "Hide \"Clips\"";
+"DiscNoClipsDesc" = "Hides the \"Clips\" tab from search results";
 
 "ModifyNotch" = "Modify Notch";
 "ModifyNotchDesc" = "Allows modifying the notch image with the \"VK\" text";
@@ -152,6 +178,9 @@
 "ResetMessage" = "This action will restore OrwellVK settings to default.\n\nAre you sure you want to continue?";
 "Yes.Сontinue" = "Yes, continue";
 "Error.FailedToImport" = "Failed to import settings";
+
+"NoDonationReminder" = "Disable donation reminder";
+"NoDonationReminderDesc" = "Turns off the rarely shown donation reminder.";
 
 "Developer" = "Developer";
 "Donate" = "Donate";
@@ -225,7 +254,7 @@
 "mo" = "%ld mo";
 "do" = "%ld d";
 "ho" = "%ld hr";
-"mino" = "%ld mic";
+"mino" = "%ld min";
 "seco" = "%ld sec";
 "Close" = "Close";
 
@@ -285,6 +314,7 @@
 "StartupTab" = "Startup tab";
 "MsgBadge" = "Message badge";
 "EnterBadgeTitle" = "No badge";
+"BadgeTip" = "To hide the badge, leave a single space";
 "ActiveTabs" = "Active tabs";
 "InactiveTabs" = "Inactive tabs";
 "clips" = "Clips";
@@ -301,7 +331,7 @@
 
 "Warning" = "Warning";
 "Nope" = "Nope!";
-"ItsStartupTab" = "Can't do that with the startup tab";
+"AtLeastOnTab" = "Хотя бы одна вкладка должна отображаться";
 "TabsCountRestricted" = "No more than 6 tabs allowed";
 "TabBarTip" = "Tabs can be configured via \"Set up lower menu\" option by long-pressing any tab";
 "Cancel" = "Cancel";
@@ -318,3 +348,5 @@
 "Welcome.More" = "And More";
 "Welcome.MoreDesc" = "OrwellVK is not just about settings. It hides even more features for your comfort and privacy.";
 "Continue" = "Continue";
+
+"DonationReminder" = "Your support helps to make OrwellVK even better.\n\nYou can contribute or choose to disable these notifications in the OrwellVK settings. Thank you💜";
