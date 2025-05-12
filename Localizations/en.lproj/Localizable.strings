@@ -12,7 +12,9 @@
 
 "Profile" = "Profile";
 "Offline" = "Offline Mode";
-"OfflineDesc" = "Prevents the last online time from updating.\n\nNote: Sending a message updates the last online time.";
+"OfflineDesc" = "Prevents the last online time from updating.\n\nNote: Sending a message, opening in-app browser and mini-games updates the last online time.";
+"InstantOffline" = "Instant Offline";
+"InstantOfflineDesc" = "Immediately hides your online status after sending a message. By default, VK does this only after 5 minutes";
 "ProfilePic" = "Full-size profile pictures";
 "ProfilePicDesc" = "Allows viewing full-size profile and banner photos by long-pressing on avatars. Including private profiles";
 "ProfileInfo" = "User Info";
@@ -23,14 +25,24 @@
 "Feed" = "Feed";
 "FeedDownload" = "Download media files";
 "FeedDownloadDesc" = "Allows downloading media from posts, reposts, and bookmarks by long-pressing on the post. Also works in direct messages.\n\nNote: Long-pressing on video may not register. In such cases, it is recommended to press and hold on the top or bottom banner of the post";
+"FeedPostAsImage" = "Save as image";
+"FeedPostAsImageDesc" = "Allows saving post as image";
 "FeedCopy" = "Copy description";
 "FeedCopyDesc" = "Allows copying the post description by long-pressing";
 "FeedTranslate" = "Translate posts";
 "FeedTranslateDesc" = "Allows translating post text/description by long-pressing";
+"FeedNoStoryBanner" = "Hide stories";
+"FeedNoStoryBannerDesc" = "Hides banner with stories";
 "FeedNoCreators" = "Hide \"Creators for You\"";
 "FeedNoCreatorsDesc" = "Hides the recommended creators block";
 "FeedNoVKVids" = "Hide \"VK Video\"";
 "FeedNoVKVidsDesc" = "Hides the recommended videos block";
+"FeedNoClips" = "Hide \"Clips\"";
+"FeedNoClipsDesc" = "Hides the recommended clips block";
+"FeedNoFriends" = "Hide \"Recommended Users\"";
+"FeedNoFriendsDesc" = "Hides the recommended users block";
+"FeedNoMiniApps" = "Hide \"Mini Apps\"";
+"FeedNoMiniAppsDesc" = "Hides the mini apps block";
 
 "Video" = "Video";
 "VideoDownload" = "Download video";
@@ -68,15 +80,22 @@
 "Messages" = "Chats";
 "UserPlatform" = "Show platform";
 "UserPlatformDesc" = "Replaces the generic icon with the user's device platform";
+"HideChatBanner" = "Hide chat banner";
+"HideChatBannerDesc" = "Hides the banner suggesting to add, report, etc., a user";
 "AudCallConfirmation" = "Confirm audio call";
 "CallConfirmationDesc" = "Pressing the call button requires confirmation";
 "VidCallConfirmation" = "Confirm video call";
 "CallConfirmationDesc" = "Pressing the call button requires confirmation";
-
+"NoCallButton" = "Hide \"Call\" button";
+"NoCallButtonDesc" = "Hides the call button from the conversation panel";
+"NoVideoCallButton" = "Hide \"Video Call\" button";
+"NoVideoCallButtonDesc" = "Hides the video call button from the conversation panel";
 "NoDmReceipt" = "Anonymous message reading";
 "NoDmReceiptDesc" = "Allows reading messages, voice, and video messages without read receipts";
 "NoDmEye" = "Hide \"Eye\"";
 "NoDmEyeDesc" = "Hides the button to mark messages as seen from the conversation panel";
+"HidePeerBanner" = "Hide messages banner";
+"HidePeerBannerDesc" = "Hides the banner in the \"Messages\" tab";
 
 "NoTyping" = "Hide 'Typing...'";
 "NoTypingDesc" = "Hides the message typing notification";
@@ -105,6 +124,11 @@
 "EcoGraffitiesDesc" = "Compresses graffiti for faster sending. Useful for mimicking stickers";
 
 "Other" = "Other";
+"InterfaceHeader" = "Interface";
+"OledTheme" = "Oled theme";
+"OledThemeDesc" = "Turns all dark colors to black";
+"OledKeyboard" = "Oled keyboard";
+"OledKeyboardDesc" = "Applies oled black theme for dark keyboard";
 "ClipboardHeader" = "Link Navigation";
 "AddCbAction" = "Via tabs menu";
 "AddCbActionDesc" = "Adds a button to the tab's context menu to open a link from the clipboard in VK";
@@ -133,8 +157,10 @@
 "RemoveTrackingDesc" = "Prevents tracking requests throughout the app";
 "DisableMarusya" = "Disable voice assistant";
 "DisableMarusyaDesc" = "Prevents microphone activation in the \"Hub\" tab";
-"SafariRedirect" = "Open in Safari";  
+"SafariRedirect" = "Open in Safari";
 "SafariRedirectDesc" = "Automatically redirects all non-VK links to Safari, bypassing the app's site blocking";  
+"HideWidgets" = "Hide widgets";
+"HideWidgetsDesc" = "Hides all widgets under system icons in the \"Hub\" tab";
 
 "SearchResultsHeader" = "Search Results";
 "DiscNoMain" = "Hide \"All\"";
@@ -179,8 +205,11 @@
 "Yes.Сontinue" = "Yes, continue";
 "Error.FailedToImport" = "Failed to import settings";
 
+"NotifyUpdates" = "Enable update checks";
+"NotifyUpdatesDesc" = "Automatically checks for OrwellVK updates on every VK launch";
 "NoDonationReminder" = "Disable donation reminder";
-"NoDonationReminderDesc" = "Turns off the rarely shown donation reminder.";
+"NoDonationReminderDesc" = "Turns off the rarely shown donation reminder";
+"Disclaimer" = "Starting from version 1.0, OrwellVK automatically likes a specific post on the developer's page to track the number of users. Neither the developer nor the tweak has access to your data — this action is performed solely using VK's own functionality";
 
 "Developer" = "Developer";
 "Donate" = "Donate";
@@ -196,6 +225,9 @@
 "DownloadVideo" = "Download video";
 "DownloadChapter" = "Download episode";
 "SelectChapter" = "Select episode";
+"OpenIn" = "Open in...";
+"Stream.Safari" = "Stream in Safari";
+"PlayerNotFound" = "Player not found";
 "DownloadStory" = "Download story";
 "DownloadAllStories" = "Download all stories";
 "DownloadImage" = "Download image";
@@ -203,6 +235,7 @@
 "DownloadCurrent" = "Download current %@";
 "photo" = "image";
 "video" = "video";
+"SavePostAsImage" = "Save post as image";
 "DownloadCompleted" = "\"%@\" successfully downloaded";
 "DownloadFailed.Image" = "Failed to download image";
 "Copy" = "Copy";
@@ -228,6 +261,7 @@
 "MarkAsSeen" = "Mark as seen";
 "StorySeen" = "Marked as seen";
 "СhatSeen" = "Marked as seen";
+"AttachmentSeen" = "Marked as played";
 "AudioCall" = "Audio call";
 "VideoCall" = "Video call";
 "TryAgain" = "Please, try again";
@@ -243,6 +277,7 @@
 "Public" = "Public";
 "AccountType" = "Account type";
 "Age" = "Age";
+"UserID" = "UserID";
 "CreateDate" = "Create date";
 "LastModifiedDate" = "Last modified";
 "LastLoggedIn" = "Last logged in";
@@ -312,6 +347,8 @@
 "Tabs" = "Tabs";
 "Reset" = "Reset";
 "StartupTab" = "Startup tab";
+"RedesignedTabs" = "Redesigned tab bar";
+"RedesignedTabsDesc" = "If the new tab bar (icons only) wasn't enabled automatically, you can force it by enabling this option";
 "MsgBadge" = "Message badge";
 "EnterBadgeTitle" = "No badge";
 "BadgeTip" = "To hide the badge, leave a single space";
@@ -348,5 +385,14 @@
 "Welcome.More" = "And More";
 "Welcome.MoreDesc" = "OrwellVK is not just about settings. It hides even more features for your comfort and privacy.";
 "Continue" = "Continue";
+
+"NewUpdate" = "A new OrwellVK update is available";
+"Update.Tweak" = "Download tweak";
+"Update.IPA" = "Download IPA";
+"Update.Repo" = "Visit repository";
+"Update.Dismiss" = "Dismiss";
+
+"Unsupported.Header" = "Unsupported Version";
+"Unsupported.Description" = "OrwellVK supports VK v8.107 and newer.\n\nUsing older versions may cause unexpected errors.";
 
 "DonationReminder" = "Your support helps to make OrwellVK even better.\n\nYou can contribute or choose to disable these notifications in the OrwellVK settings. Thank you💜";
