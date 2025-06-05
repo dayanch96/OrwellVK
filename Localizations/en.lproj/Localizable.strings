@@ -68,6 +68,10 @@
 "NoStoriesReceiptDesc" = "Allows viewing stories anonymously";
 "NoStoriesEye" = "Hide \"Eye\"";
 "NoStoriesEyeDesc" = "Hides the \"Mark as seen\" button in the story context menu";
+"NoDiscoverStories" = "Hide \"Discover\"";
+"NoDiscoverStoriesDesc" = "Hides the button and removes stories based on your interests";
+"NoCreateStory" = "Hide \"Create\" button";
+"NoCreateStoryDesc" = "Hides the button for creating new stories";
 
 "Music" = "Music";
 "MusicDownload" = "Download music";
@@ -96,6 +100,8 @@
 "NoDmEyeDesc" = "Hides the button to mark messages as seen from the conversation panel";
 "HidePeerBanner" = "Hide messages banner";
 "HidePeerBannerDesc" = "Hides the banner in the \"Messages\" tab";
+"NoSsDetection" = "Disable screenshot detection";
+"NoSsDetectionDesc" = "Prevents the app from notifying the other person when you take a screenshot in chat";
 
 "NoTyping" = "Hide 'Typing...'";
 "NoTypingDesc" = "Hides the message typing notification";
@@ -150,6 +156,8 @@
 "RemoveVKPayDesc" = "Hides the \"VK Pay\" cell from the VK menu";
 "RemoveSupport" = "Hide support";
 "RemoveSupportDesc" = "Hides the \"Support\" cell from the VK menu";
+"RemoveQrScan" = "Hide sign in with QR code";
+"RemoveQrScanDesc" = "Hides the \"Sign In With QR Code\" cell from the VK menu";
 
 "DisableSwipeToCam" = "Disable left swipe gesture";
 "DisableSwipeToCamDesc" = "Disables the camera opening gesture from the main tab";
@@ -243,6 +251,12 @@
 "CopyText" = "Copy text";
 "TranslateText" = "Translate text";
 "CopyRepostsText" = "Copy repost text";
+"OpenArticle" = "Open article";
+"ArticleMessage" = "Opening the article this way will set your status to Online.\n\nTo read the article without going online, press and hold the post and choose \"Open Article\"";
+"OpenArticleAnyway" = "Open article and go online";
+"BrowserMessage" = "Opening the webpage this way will set your status to Online.\n\nAlternatively, you can try opening it in Safari, though it doesn't always help";
+"OpenSiteAnyway" = "Open anyway";
+"OpenInAppSafari" = "Open in Safari";
 "SelectAudio" = "Select audio";
 "Share" = "Share";
 "SaveToVoices" = "Save to voice messages";
@@ -261,7 +275,15 @@
 "MarkAsSeen" = "Mark as seen";
 "StorySeen" = "Marked as seen";
 "СhatSeen" = "Marked as seen";
-"AttachmentSeen" = "Marked as played";
+"MessageSeen" = "This and older messages marked as read";
+"Chat.DownloadVoice" = "Download audio";
+"MarkAsPlayed" = "Mark as played";
+"MarkAsViewed" = "Mark as viewed";
+"AttachmentPlayed" = "Marked as played";
+"AttachmentViewed" = "Marked as viewed";
+"Heyo" = "Heyo";
+"MessengerContextMenuIntroduction" = "Now you can mark messages as read and download voice messages directly from the context menu — just press and hold a message";
+"MessengerContentDownloadIntroduction" = "You can download such media files (even disappearing ones) by long-pressing them";
 "AudioCall" = "Audio call";
 "VideoCall" = "Video call";
 "TryAgain" = "Please, try again";
@@ -276,14 +298,17 @@
 "Private" = "Private";
 "Public" = "Public";
 "AccountType" = "Account type";
+"IsBlacklisted" = "Blacklist status";
+"Blacklisted" = "You are blacklisted";
+"NotBlacklisted" = "You are not blacklisted";
 "Age" = "Age";
 "UserID" = "UserID";
 "CreateDate" = "Create date";
 "LastModifiedDate" = "Last modified";
 "LastLoggedIn" = "Last logged in";
-"profile.year" = "yo";
-"profile.years" = "yo";
-"profile.yr" = "yo";
+"profile.year" = "years old";
+"profile.years" = "years old";
+"profile.yr" = "years old";
 "yr" = "y";
 "year" = "y";
 "mo" = "%ld mo";
@@ -341,6 +366,10 @@
 "sec" = "sec";
 "ActivityEndsIn" = "Ends in %ld:%02ld";
 
+"ScreenshotHeader" = "Chat screenshot";
+"SendScreenshot" = "Simulate screenshot";
+"ScreenshotSent" = "You took a screenshot of the chat";
+
 "NewGraffiti" = "New graffiti";
 "DrawGraffiti" = "Draw graffiti";
 
@@ -386,10 +415,10 @@
 "Welcome.MoreDesc" = "OrwellVK is not just about settings. It hides even more features for your comfort and privacy.";
 "Continue" = "Continue";
 
-"NewUpdate" = "A new OrwellVK update is available";
+"NewUpdate" = "Update available: v%@";
 "Update.Tweak" = "Download tweak";
 "Update.IPA" = "Download IPA";
-"Update.Repo" = "Visit repository";
+"Update.Repo" = "Repositories";
 "Update.Dismiss" = "Dismiss";
 
 "Unsupported.Header" = "Unsupported Version";
